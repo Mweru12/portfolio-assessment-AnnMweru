@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact | Ann Mweru</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+
+    <body>  
+        <div id="grid-container" class="d-flex">
+            <!-- Sidebar -->
+            <nav id="sidebar" class="bg-blue text-muted p-3">
+                <div class="nav flex-column text-center">
+                    <a href="index.html" class="nav-link text-white">Home</a>
+                    <a href="contact.html" class="nav-link text-white active">Contact Page</a>
+                </div>
+            </nav>
+
+                <!-- Main Content -->
+            <main id="maincontent" class="flex-grow-1 p-4">
+                <header class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <h1 class="h3">Contact Me</h1>
+                        <p class="lead"><strong>Let’s connect and build something meaningful together.</strong></p>
+                    </div>
+
+                </header>
+
+                <section class="bg-white p-4 rounded shadow-sm mb-4">
+                    <h2 class="text-center">Get in Touch</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </section>
+
+                <section class="bg-white p-4 rounded shadow-sm mb-4 text-center">
+                    <h2>Other Ways to Reach Me</h2>
+                    <p><i class="bi bi-telephone-fill"></i> +254 717 583 043</p>
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:annmweru017@gmail.com">annmweru017@gmail.com</a></p>
+                    <p><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/ann-mweru-2b4b621b4/" target="_blank">linkedin.com/in/ann-mweru</a></p>
+                </section>
+
+                <div class="text-center mb-4">
+                    <a href="../index.html" class="btn btn-outline-primary">Back to Home</a>
+                </div>
+
+                <footer class="footer mt-5 text-center text-muted small">
+                    <p>&copy; 2024 Ann Mweru. All rights reserved.</p>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>
