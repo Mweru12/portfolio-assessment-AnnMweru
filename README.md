@@ -2,6 +2,7 @@
 Welcome to my portfolio that gives a glimpse of who I am and the skills, projects,education, experience and my contact information.
 
 ## PROJECT STRUCTURE
+```
 ├──index.html   #It is my main page
 ├──public/ -- 
 │   ├──contact.html  #contains contact form 
@@ -12,7 +13,7 @@ Welcome to my portfolio that gives a glimpse of who I am and the skills, project
 ├──assets/
 │   ├──/IMG_20220828_095512_809.jpg  #profile picture
 ├──README.md 
-
+```
 ## Key features 
 - Responsive layout using Flexbox, Bootstrap, and media queries
 - Sidebar navigation with smooth scrolling
